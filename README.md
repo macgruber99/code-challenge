@@ -18,6 +18,12 @@ A repo containing code for a coding challenge.
 |upload_bucket_name|The name of the S3 bucket.|
 |topic_arn|The name of the SNS topic.|
 
+## Testing
+The `test.sh` script executes the following commands:
+- `terraform fmt -check -recursive`
+- `terraform validate`
+- `terraform plan`
+
 ## Authors
 This project was created by Erik Green.
 
