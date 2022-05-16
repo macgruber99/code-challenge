@@ -71,7 +71,7 @@ No modules.
 |Name|Description|
 |:---|:---|
 |upload_bucket_name|The name of the S3 bucket.|
-topic_arn|The name of the SNS topic.|
+|topic_arn|The name of the SNS topic.|
 
 ## Authors
 This module was created by Erik Green.
