@@ -34,20 +34,20 @@ This module creates an SNS topic for sending emails to users notifying them when
 An access policy is created for the SNS topic.  This limits publishing to the topic to the S3 bucket created by this module.
 
 ## Requirements
-|Name     |Version |
-|---------|--------| 
+|Name|Version |
+|:---|:---| 
 |terraform|>= 1.0.0|
 |aws      |>= 4.0.0|
 
 ## Providers
-|Name|Version |
-|----|--------| 
+|Name|Version|
+|:---|:---| 
 |aws |>= 4.0.0|
 
 ## Modules
 No modules.
 
 ## Resources
-|Name|Type |
-|----|---------|
+|Name|Type|
+|:---|:---|
 |[aws_s3_bucket.upload_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)|resource|
