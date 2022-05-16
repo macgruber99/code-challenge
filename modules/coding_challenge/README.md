@@ -51,3 +51,18 @@ No modules.
 |Name|Type|
 |:---|:---|
 |[aws_s3_bucket.upload_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)|resource|
+|[aws_s3_bucket_acl.upload_bucket](https://registry.terraform.io/providers/hashicorp%20%20/aws/latest/docs/resources/s3_bucket_acl)|resource|
+|[aws_s3_bucket_notification.upload_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_notification)|resource|
+|[aws_sns_topic.upload_notification](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic)|resource|
+|[aws_sns_topic_policy.upload_notification](https://www.google.com/search?client=firefox-b-1-d&q=terraform+aws_sns_topic_policy)|resource|
+|[aws_iam_policy_document.upload_topic](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document)|data source|
+|[aws_sns_topic_subscription.upload_topic](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription)|resource|
+
+## Inputs
+|Name|Description|Type|Default|Required|
+|:---|:---|:---|:---|:---|
+|acl|The canned ACL for the S3 bucket.|string|"private"|yes|
+|bucket_name|The name of the S3 bucket.|string| |yes|
+|tags|A map of tags to apply to AWS resources.|map(string)| |no|
+|topic_name|The name of the SNS topic.|string| | yes|
+|topic_subscribers|A list of email addresses to subscribe to the SNS topic.|list(string)| |yes|
