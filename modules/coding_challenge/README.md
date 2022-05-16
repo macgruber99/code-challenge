@@ -66,3 +66,15 @@ No modules.
 |tags|A map of tags to apply to AWS resources.|map(string)| |no|
 |topic_name|The name of the SNS topic.|string| | yes|
 |topic_subscribers|A list of email addresses to subscribe to the SNS topic.|list(string)| |yes|
+
+## Outputs
+|Name|Description|
+|:---|:---|
+|upload_bucket_name|The name of the S3 bucket.|
+topic_arn|The name of the SNS topic.|
+
+## Authors
+This module was created by Erik Green.
+
+## License
+N/A
