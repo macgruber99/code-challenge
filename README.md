@@ -1,4 +1,4 @@
-# coding-challenge
+# code-challenge
 A repo containing code for a coding challenge.
 
 # Modules
